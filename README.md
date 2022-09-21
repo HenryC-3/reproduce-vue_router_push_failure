@@ -1,4 +1,8 @@
-## setup
+## Description
+
+Fail to navigate to other route by using `useRouter().push` in nested route
+
+## Setup
 
 ```bash
 pnpm i
