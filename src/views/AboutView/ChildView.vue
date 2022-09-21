@@ -10,8 +10,8 @@
 import { useRouter } from "vue-router";
 // import router from "../../router";
 
+const router = useRouter();
 const go = () => {
-  const router = useRouter();
   router.push("/");
   // router.push("/");
 };

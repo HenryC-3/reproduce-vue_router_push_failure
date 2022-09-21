@@ -1,3 +1,39 @@
+## Summary
+
+When Using `useRouter` in `<script setup>`
+
+### Do
+
+get router directly in setup
+
+```HTML
+<script setup>
+const router = useRouter() // ✅
+
+const innerScope = ()=>{
+   router.push(/** */) // navigation success
+}
+<script>
+```
+
+### Do not
+
+get router in innerScope
+
+```HTML
+<script setup>
+
+const innerScope = ()=>{
+   const router = useRouter() // ❌
+   router.push(/** */) // navigation failure
+}
+<script>
+```
+
+---
+
+> Problem solved by https://discord.com/channels/325477692906536972/325479452773580800/1022014399524900914
+
 ## Description
 
 Fail to navigate to other route by using `useRouter().push` in nested route
