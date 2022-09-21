@@ -4,10 +4,14 @@ Fail to navigate to other route by using `useRouter().push` in nested route
 
 ## Setup
 
+local
+
 ```bash
 pnpm i
 npm run dev
 ```
+
+or you can use [online demo on stackblitz](https://stackblitz.com/github/HenryC-3/reproduce-vue_router_push_faliure)
 
 ## Reproduce
 
