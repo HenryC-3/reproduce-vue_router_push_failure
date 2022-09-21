@@ -20,4 +20,4 @@ npm run dev
 
 - the test button logic: [ChildView.vue](./src/views/AboutView/ChildView.vue)
 - the router: [index.js](./src/router/index.js)
-- online demo
+- [online demo on stackblitz](https://stackblitz.com/github/HenryC-3/reproduce-vue_router_push_faliure)
